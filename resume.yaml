@@ -4,39 +4,42 @@ awards:
   summary: There is no spoon.
   title: Award
 basics:
-  email: john@gmail.com
-  label: Programmer
+  email: jonathan.bergers@gmail.com
+  label: Software specialist
   location:
-    address: 2712 Broadway St
-    city: San Francisco
-    countryCode: US
-    postalCode: CA 94115
-    region: California
-  name: John Doe
-  phone: (912) 555-4321
-  picture: ''
+    address: Perikweg 5
+    city: Enschede
+    countryCode: NL
+    postalCode: 7512 DM
+    region: Enschede
+  name: Jonathan Bergers
+  phone: 06 180 72 765
+  picture: 'profile.jpg'
   profiles:
-  - network: Twitter
+  - network: Linkedin
     url: http://twitter.com/john
     username: john
   summary: A summary of John Doe...
-  website: http://johndoe.com
+  website: http://eggwise.com
 education:
 - area: Software Development
   courses:
-  - DB1101 - Basic SQL
+  - Python
+  - Javascript
   endDate: '2013-01-01'
-  gpa: '4.0'
-  institution: University
+  gpa: '8'
+  institution: Saxion
   startDate: '2011-01-01'
   studyType: Bachelor
 interests:
 - keywords:
-  - Ferrets
-  - Unicorns
+  - Sport
+  - Muziek
   name: Wildlife
 languages:
-- level: Native speaker
+- level: Vloeiend
+  name: Nederlands
+- level: Vloeiend
   name: English
 publications:
 - name: Publication
@@ -49,9 +52,10 @@ references:
   reference: Reference...
 skills:
 - keywords:
-  - HTML
-  - CSS
+  - Python
   - Javascript
+  - Java
+  - HTML
   level: Master
   name: Web Development
 volunteer:
@@ -64,11 +68,11 @@ volunteer:
   summary: Description...
   website: http://organization.com/
 work:
-- company: Company
+- company: Eggwise
   endDate: '2014-01-01'
   highlights:
   - Started the company
-  position: President
+  position: Eigenaar
   startDate: '2013-01-01'
   summary: Description...
-  website: http://company.com
+  website: http://eggwise.com
