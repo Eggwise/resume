@@ -1,0 +1,74 @@
+awards:
+- awarder: Company
+  date: '2014-11-01'
+  summary: There is no spoon.
+  title: Award
+basics:
+  email: john@gmail.com
+  label: Programmer
+  location:
+    address: 2712 Broadway St
+    city: San Francisco
+    countryCode: US
+    postalCode: CA 94115
+    region: California
+  name: John Doe
+  phone: (912) 555-4321
+  picture: ''
+  profiles:
+  - network: Twitter
+    url: http://twitter.com/john
+    username: john
+  summary: A summary of John Doe...
+  website: http://johndoe.com
+education:
+- area: Software Development
+  courses:
+  - DB1101 - Basic SQL
+  endDate: '2013-01-01'
+  gpa: '4.0'
+  institution: University
+  startDate: '2011-01-01'
+  studyType: Bachelor
+interests:
+- keywords:
+  - Ferrets
+  - Unicorns
+  name: Wildlife
+languages:
+- level: Native speaker
+  name: English
+publications:
+- name: Publication
+  publisher: Company
+  releaseDate: '2014-10-01'
+  summary: Description...
+  website: http://publication.com
+references:
+- name: Jane Doe
+  reference: Reference...
+skills:
+- keywords:
+  - HTML
+  - CSS
+  - Javascript
+  level: Master
+  name: Web Development
+volunteer:
+- endDate: '2013-01-01'
+  highlights:
+  - Awarded 'Volunteer of the Month'
+  organization: Organization
+  position: Volunteer
+  startDate: '2012-01-01'
+  summary: Description...
+  website: http://organization.com/
+work:
+- company: Company
+  endDate: '2014-01-01'
+  highlights:
+  - Started the company
+  position: President
+  startDate: '2013-01-01'
+  summary: Description...
+  website: http://company.com
