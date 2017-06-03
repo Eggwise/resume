@@ -1,8 +1,3 @@
-awards:
-- awarder: Company
-  date: '2014-11-01'
-  summary: There is no spoon.
-  title: Award
 basics:
   email: jonathan.bergers@gmail.com
   label: Software specialist
@@ -11,7 +6,7 @@ basics:
     city: Enschede
     countryCode: NL
     postalCode: 7512 DM
-    region: Enschede
+    region: Overijssel
   name: Jonathan Bergers
   phone: 06 180 72 765
   picture: 'profile.jpg'
@@ -22,31 +17,33 @@ basics:
   summary: A summary of John Doe...
   website: http://eggwise.com
 education:
-- area: Software Development
-  courses:
-  - Python
-  - Javascript
-  endDate: '2013-01-01'
-  gpa: '8'
-  institution: Saxion
-  startDate: '2011-01-01'
+- area: Software Engineering
+#  courses:
+#  - Python
+#  - Javascript
+  endDate: '2017-01-01'
+  gpa: 'Gemiddelde: 8'
+  institution: Saxion Hogescholen
+  startDate: '2015-01-01'
   studyType: Bachelor
 interests:
 - keywords:
+  - Customer applications
+  - Scalable architecture
+  - Security
+  - UX
+  name: Techniek
+
+- keywords:
   - Sport
-  - Muziek
-  name: Wildlife
+  - Voeding
+  name: Gezondheid
+
 languages:
 - level: Vloeiend
   name: Nederlands
 - level: Vloeiend
   name: English
-publications:
-- name: Publication
-  publisher: Company
-  releaseDate: '2014-10-01'
-  summary: Description...
-  website: http://publication.com
 references:
 - name: Jane Doe
   reference: Reference...
@@ -54,19 +51,43 @@ skills:
 - keywords:
   - Python
   - Javascript
+  - C#
   - Java
-  - HTML
+  - HTML/CSS
   level: Master
-  name: Web Development
-volunteer:
-- endDate: '2013-01-01'
-  highlights:
-  - Awarded 'Volunteer of the Month'
-  organization: Organization
-  position: Volunteer
-  startDate: '2012-01-01'
-  summary: Description...
-  website: http://organization.com/
+  name: Main Programmeertalen
+- keywords:
+  - VueJS
+  - React
+  - Ember
+  - Jquery
+  level: Master
+  name: Front end frameworks
+
+- keywords:
+  - Syncano
+  - Django
+  - Flask
+  - Express
+  - SailsJS
+  level: Master
+  name: Back end frameworks
+
+- keywords:
+  - Cloud / Lambda architecture
+  - Chat bots
+  - Koppelingen
+  - Functioneel programmeren
+  - Webservices
+  - REST API
+  - ES6
+  - Metaprogramming
+
+  level: Master
+  name: Technieken
+
+
+
 work:
 - company: Eggwise
   endDate: '2014-01-01'
@@ -76,3 +97,7 @@ work:
   startDate: '2013-01-01'
   summary: Description...
   website: http://eggwise.com
+
+
+sectionTitles:
+  education: Educatie
