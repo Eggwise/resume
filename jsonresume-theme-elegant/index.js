@@ -67,12 +67,18 @@ function render(resume) {
         return resume.basics.location[key];
     });
 
-    // fix summary markdown
-    var summary = convertMarkdown(resume.basics.summary);
 
-    summary = summary.replace('@@@@~', '')
-    summary = summary.replace('~@@@@', '')
-    resume.basics.summary = summary
+    function convertMardownFixed(text){
+        text = convertMarkdown(text);
+
+        text = text.replace('@@@@~', '')
+        text = text.replace('~@@@@', '')
+        return text
+
+    }
+
+    // fix summary markdown
+    resume.basics.summary = convertMardownFixed(resume.basics.summary)
 
     resume.basics.computed_location = _.compact(addressValues).join(', ');
 
@@ -107,7 +113,7 @@ function render(resume) {
           work_info.endDate = utils.getFormattedDate(end_date);
         }
 
-        work_info.summary = convertMarkdown(work_info.summary);
+        work_info.summary = convertMardownFixed(work_info.summary);
 
         work_info.highlights = _(work_info.highlights).map(function(highlight) {
             return convertMarkdown(highlight);

@@ -10,8 +10,6 @@ def generate_resume():
 
     GENERATE_COMMAND = 'hackmyresume BUILD resume.json TO out/{filename} -t jsonresume-theme-{theme} -o options.json'.format(
         filename=FILENAME, theme=THEME)
+    print('executing command: {0}'.format(GENERATE_COMMAND))
 
     os.system(GENERATE_COMMAND)
-
-
-generate_resume()
