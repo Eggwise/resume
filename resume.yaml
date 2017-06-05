@@ -18,23 +18,26 @@ basics:
     url: http://github.com/eggwise
     username: Eggwise
 
+  languages:
+    - Nederlands
+    -  Engels
   summary: |
 
-    ##### Persoonlijk
+    #### Persoonlijk
 
     Ik ben open, eerlijk, ambitieus, heb doorzettingsvermogen en denk out of the box.
     Ik ben sociaal vaardig, weet goed te manoeuvreren in verschillende soorten situaties en als ik een doel voor ogen heb dan weet ik altijd een manier te vinden om er te komen.
 
     ---
 
-    ##### Passie
+    #### Passie
 
     Mijn passie is producten de wereld in brengen waar consumenten en bedrijven werkelijk beter van worden. Mij verplaatsen in de klant en eindgebruiker, processen en wensen van de klant vertalen naar een goede IT oplossing vind ik het leuke aan mijn vak.
     Ik ben graag bezig met nadenken over hoe de mens in elkaar zit, waarom ze bepaalde dingen doen en hoe je dit kan gebruiken om zo goed mogelijke producten te maken.
 
     ---
 
-    ##### Waar ik voor sta
+    #### Waar ik voor sta
 
     **Maatwerk**
     Elk product of idee is anders en heeft weer een andere benaderingen / technieken nodig.
@@ -45,13 +48,13 @@ basics:
 
     ---
 
-    ##### Visie op software
+    #### Visie op software
 
     Goede software maken doe je in mijn ogen door de juiste technieken en services te koppelen en samen te brengen tot een doelgerichte maatwerk oplossing. Goede software moet laagdrempelig veilig en schaalbaar zijn.
 
     ---
 
-    ##### Visie op software ontwikkeling
+    #### Visie op software ontwikkeling
 
     Goede software ontwikkelen is iets wat je nooit alleen kan, je moet samenwerken met de klant, eindgebruiker en de juiste mensen met de juiste skills. Iteratief opleveren, telkens bij sturen, maar ten alle tijden het grote plaatje in je achterhoofd houden.
     Op een transparante structurele en non bureaucratische manier te werk gaan en bij elke stap de klant betrekken.
@@ -68,17 +71,21 @@ education:
 #  courses:
 #  - Python
 #  - Javascript
-  endDate: '2017-01-01'
+  endDate: '2016-01-01'
   gpa: 'Gemiddelde: 8'
   institution: Saxion Hogescholen
   startDate: '2015-01-01'
-  studyType: Bachelor
+  studyType: Propedeuse
 interests:
 - keywords:
   - Customer applications
   - Scalable architecture
   - Security
-  - UX
+  - Machine Learning
+  - Data Analysis & Big Data
+  - Blockchain
+  - VR / AR
+  - UX / UI
   name: Techniek
 
 - keywords:
@@ -87,11 +94,9 @@ interests:
   - Voeding
   name: Gezondheid
 
-languages:
-- level: Vloeiend
-  name: Nederlands
-- level: Vloeiend
-  name: English
+
+
+
 references:
 - name: Christiaan de Jong
   reference: Recognize
@@ -99,10 +104,17 @@ references:
   reference: Diesis
 skills:
 - keywords:
+  - Scrum
+  - Jira
+  - Trello
+  level: Master
+  name: Project Management
+- keywords:
   - Python
   - Javascript
   - C#
   - Java
+  - Ruby
   - HTML/CSS
   level: Master
   name: Main Programmeertalen
@@ -111,32 +123,55 @@ skills:
   - React
   - Ember
   - Jquery
+  - Framework7
+  - Legacy Javascript
   level: Master
   name: Front end frameworks
 
 - keywords:
-  - Syncano
   - Django
-  - Flask
-  - Express
-  - SailsJS
+  - Ruby on Rails
   - dotNET
+  - Syncano
+  - Flask
+  - Express / Node
+  - SailsJS
+
+
   level: Master
   name: Back end frameworks
 
+
 - keywords:
   - Cloud / Lambda architecture
+  - SQL & NoSQL
+  - Docker
+  - Heroku
+  - Git
+  - OTAP straat
   - Chat bots
   - Koppelingen
-  - Functioneel programmeren
-  - Webservices
-  - REST API
-  - ES6
-  - Metaprogramming
+  - Webservices / REST APIS
+  - Node, NPM
+  - ES6 / ECMAScript 6
 
   level: Master
   name: Technieken
 
+
+- keywords:
+  - Functioneel programmeren
+  - Object georienteerd programmeren
+  - Meta programmeren
+  level: Master
+  name: Programmeer technieken
+
+- keywords:
+  - Selenium
+  - Object georienteerd programmeren
+  - Meta programmeren
+  level: Master
+  name: Test frameworks
 
 
 work:
@@ -188,7 +223,7 @@ work:
 - company: Xtalus
   endDate: '2015-01-01'
   position: Matching platform
-  startDate: '2013-01-01'
+  startDate: '2014-01-01'
   summary: Samen met een het Xtalus team heb ik mee ontwikkeld aan een Matching platform om Studenten en MKB bedrijven met elkaar te koppelen voor relevante bijbanen / opdrachten.
     Back End development met het Apache ISIS platform in Java. https://www.code.rehab/
   website: http://xtalus.nl/
