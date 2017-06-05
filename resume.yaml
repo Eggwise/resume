@@ -104,7 +104,9 @@ references:
   reference: Diesis
 skills:
 - keywords:
+  - Agile
   - Scrum
+  - Kanban
   - Jira
   - Trello
   level: Master
