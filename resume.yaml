@@ -167,9 +167,9 @@ skills:
   name: Programmeer technieken
 
 - keywords:
-  - Selenium
-  - Object georienteerd programmeren
-  - Meta programmeren
+  - Selenium - Python
+  - PhantomJS - Node
+  - Capybara - Ruby
   level: Master
   name: Test frameworks
 
