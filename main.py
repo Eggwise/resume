@@ -1,10 +1,5 @@
 import json, yaml
-
-
 from lib import generate_resume
-
-FILENAME_JSON = 'resume.json'
-FILENAME_YAML = 'resume.yaml'
 
 
 def json_to_yaml(filename_in, filename_out):
@@ -26,11 +21,8 @@ def yaml_to_json(filename_in, filename_out):
     with open(filename_out, 'w') as f:
         f.write(json_resume)
 
-
-
-# json_to_yaml(FILENAME_JSON, FILENAME_YAML)
+FILENAME_JSON = 'resume.json'
+FILENAME_YAML = 'resume.yaml'
 
 yaml_to_json(FILENAME_YAML, FILENAME_JSON)
-
-
 generate_resume()
