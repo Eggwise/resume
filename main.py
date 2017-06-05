@@ -18,7 +18,7 @@ def json_to_yaml(filename_in, filename_out):
 
 
 def yaml_to_json(filename_in, filename_out):
-    with open(filename_in) as f:
+    with open(filename_in, encoding='utf8') as f:
         resume = yaml.load(f)
 
     json_resume = json.dumps(resume)

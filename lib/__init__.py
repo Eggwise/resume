@@ -1,0 +1,2 @@
+from .generate_resume import generate_resume
+from .setup_hackmyresume import setup_hackmyresume

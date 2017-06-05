@@ -67,7 +67,12 @@ function render(resume) {
         return resume.basics.location[key];
     });
 
-    resume.basics.summary = convertMarkdown(resume.basics.summary);
+    // fix summary markdown
+    var summary = convertMarkdown(resume.basics.summary);
+
+    summary = summary.replace('@@@@~', '')
+    summary = summary.replace('~@@@@', '')
+    resume.basics.summary = summary
 
     resume.basics.computed_location = _.compact(addressValues).join(', ');
 

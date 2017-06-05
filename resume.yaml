@@ -1,6 +1,6 @@
 basics:
   email: jonathan.bergers@gmail.com
-  label: Software specialist
+  label: Software developer & IT Consultant
   location:
     address: Perikweg 5
     city: Enschede
@@ -12,9 +12,56 @@ basics:
   picture: 'profile.jpg'
   profiles:
   - network: Linkedin
-    url: http://twitter.com/john
-    username: john
-  summary: A summary of John Doe...
+    url: http://linkedin.com/in/jonathan-bergers-b38708a6
+    username: Jonathan Bergers
+  - network: Github
+    url: http://github.com/eggwise
+    username: Eggwise
+
+  summary: |
+
+    ##### Persoonlijk
+
+    Ik ben open, eerlijk, ambitieus, heb doorzettingsvermogen en denk out of the box.
+    Ik ben sociaal vaardig, weet goed te manoeuvreren in verschillende soorten situaties en als ik een doel voor ogen heb dan weet ik altijd een manier te vinden om er te komen.
+
+    ---
+
+    ##### Passie
+
+    Mijn passie is producten de wereld in brengen waar consumenten en bedrijven werkelijk beter van worden. Mij verplaatsen in de klant en eindgebruiker, processen en wensen van de klant vertalen naar een goede IT oplossing vind ik het leuke aan mijn vak.
+    Ik ben graag bezig met nadenken over hoe de mens in elkaar zit, waarom ze bepaalde dingen doen en hoe je dit kan gebruiken om zo goed mogelijke producten te maken.
+
+    ---
+
+    ##### Waar ik voor sta
+
+    **Maatwerk**
+    Elk product of idee is anders en heeft weer een andere benaderingen / technieken nodig.
+    Ik werk daarom op een manier die bij de use case past, met de juiste mensen en met technieken er het meest geschikt voor zijn.
+
+    **Afspraak is afspraak**
+    Wat voor mij voorop staat met mijn diensten is afspraken nakomen. Realistisch blijven en leveren volgens afspraak is mij tot op heden gelukkig gelukt.
+
+    ---
+
+    ##### Visie op software
+
+    Goede software maken doe je in mijn ogen door de juiste technieken en services te koppelen en samen te brengen tot een doelgerichte maatwerk oplossing. Goede software moet laagdrempelig veilig en schaalbaar zijn.
+
+    ---
+
+    ##### Visie op software ontwikkeling
+
+    Goede software ontwikkelen is iets wat je nooit alleen kan, je moet samenwerken met de klant, eindgebruiker en de juiste mensen met de juiste skills. Iteratief opleveren, telkens bij sturen, maar ten alle tijden het grote plaatje in je achterhoofd houden.
+    Op een transparante structurele en non bureaucratische manier te werk gaan en bij elke stap de klant betrekken.
+
+    ---
+
+
+
+
+
   website: http://eggwise.com
 education:
 - area: Software Engineering
@@ -35,6 +82,7 @@ interests:
   name: Techniek
 
 - keywords:
+  - Psychologie
   - Sport
   - Voeding
   name: Gezondheid
@@ -45,8 +93,10 @@ languages:
 - level: Vloeiend
   name: English
 references:
-- name: Jane Doe
-  reference: Reference...
+- name: Christiaan de Jong
+  reference: Recognize
+- name: Tino Wendriks
+  reference: Diesis
 skills:
 - keywords:
   - Python
@@ -70,6 +120,7 @@ skills:
   - Flask
   - Express
   - SailsJS
+  - dotNET
   level: Master
   name: Back end frameworks
 
@@ -89,15 +140,55 @@ skills:
 
 
 work:
+- company: DeWilde
+  endDate: '2013-01-01'
+  position: Rozen kweken & Klanten helpen
+  startDate: '2011-02-01'
+  summary: Mijn bijbaantje bij de Rozenkwekerij DeWilde.
+  website: http://www.dewilde.nl/
 - company: Eggwise
-  endDate: '2014-01-01'
-  highlights:
-  - Started the company
-  position: Eigenaar
-  startDate: '2013-01-01'
-  summary: Description...
+  endDate: '2017-01-01'
+  position: Onderneming
+  startDate: '2015-01-01'
+  summary: Mijn onderneming. Alles wat ik doe binnen Eggwise.
   website: http://eggwise.com
 
+- company: Artgallerie Guntlisbergen
+  endDate: '2017-01-01'
+  position: Factuugenerator en Website
+  startDate: '2015-01-01'
+  summary: Voor Guntlisbergen heb ik een Factuurgenerator ontwikkeld die nu gebruikt wordt door medewerkers met hun Ipad om artikelen aan klanten te verkopen.
+  website: http://artgalerie-guntlisbergen.nl/
 
-sectionTitles:
-  education: Educatie
+
+- company: Diesis
+  endDate: '2018-01-01'
+  position: Reporting Hub
+  startDate: '2016-01-01'
+  summary: Voor diesis heb ik de Reporting Hub ontwikkeld. Dit is een Web applicatie gemaakt in dotNET / C# die volledig is in te richten voor verschillende business processen.
+  website: http://www.diesis.nl/
+
+- company: 4 Seasons Outdoor
+  endDate: '2018-01-01'
+  position: 4SO MediaCenter
+  startDate: '2017-01-01'
+  summary: In samenwerking met Recognize en CreaUnit heb ik de 4SO MediaCenter ontwikkeld voor grote android touch schermen die nu op > 30 4SO shop in shops staan in NL, DU en Engeland staan.
+    http://www.creaunit.com/ , https://recognize.nl/
+  website: https://www.4seasonsoutdoor.nl
+
+- company: Eggwise
+  endDate: '2017-01-01'
+  position: Horeca platform
+  startDate: '2016-01-01'
+  summary: Op dit moment ben ik bezig met het ontwikkelen van een Horeca en reserveringsplatform, in samenwerking met Restaurant JackiesNYC in Deventer.
+    Ik werk aan een platform en persoonlijke assistent waar gasten op een nieuwe manier een tafel kunnen reserveren en restaurants slimmer met hun reserveringen / marketing kunnen omgaan.
+    http://horeca.restaurant , http://tafel.restaurant
+  website: http://horeca.restaurant/
+
+- company: Xtalus
+  endDate: '2015-01-01'
+  position: Matching platform
+  startDate: '2013-01-01'
+  summary: Samen met een het Xtalus team heb ik mee ontwikkeld aan een Matching platform om Studenten en MKB bedrijven met elkaar te koppelen voor relevante bijbanen / opdrachten.
+    Back End development met het Apache ISIS platform in Java. https://www.code.rehab/
+  website: http://xtalus.nl/
