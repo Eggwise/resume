@@ -68,7 +68,7 @@ function render(resume) {
     });
 
 
-    function convertMardownFixed(text){
+    function convertMarkdownFixed(text){
         text = convertMarkdown(text);
 
         text = text.replace('@@@@~', '')
@@ -78,7 +78,7 @@ function render(resume) {
     }
 
     // fix summary markdown
-    resume.basics.summary = convertMardownFixed(resume.basics.summary)
+    resume.basics.summary = convertMarkdownFixed(resume.basics.summary)
 
     resume.basics.computed_location = _.compact(addressValues).join(', ');
 
@@ -113,7 +113,7 @@ function render(resume) {
           work_info.endDate = utils.getFormattedDate(end_date);
         }
 
-        work_info.summary = convertMardownFixed(work_info.summary);
+        work_info.summary = convertMarkdownFixed(work_info.summary);
 
         work_info.highlights = _(work_info.highlights).map(function(highlight) {
             return convertMarkdown(highlight);
@@ -177,7 +177,7 @@ function render(resume) {
     });
 
     _.each(resume.references, function(reference_info) {
-        reference_info.reference = convertMarkdown(reference_info.reference);
+        reference_info.reference = convertMarkdownFixed(reference_info.reference);
     });
 
     return pug.renderFile(__dirname + '/index.pug', {

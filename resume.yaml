@@ -99,9 +99,13 @@ interests:
 
 references:
 - name: Christiaan de Jong
-  reference: Recognize
+  reference: |
+    0646896115
+    [Website](https://recognize.nl)
 - name: Tino Wendriks
-  reference: Diesis
+  reference: |
+    0651339040
+    [Website](http://diesis.nl)
 skills:
 - keywords:
   - Agile
@@ -221,8 +225,11 @@ work:
   position: 4SO MediaCenter
   startDate: '2017-01-01'
   summary: |
-    In samenwerking met Recognize en CreaUnit heb ik de 4SO MediaCenter ontwikkeld voor grote android touch schermen die nu op > 30 4SO shop in shops staan in NL, DU en Engeland staan.
-    Hiervoor heb ik een team ingehuurd die met Unity de applicatie heeft ontwikkeld
+    In samenwerking met Recognize en CreaUnit heb ik de 4SO MediaCenter ontwikkeld.
+    Dit is een applicatie waarmee gebruikers hun meubels kunnen samenstellen.
+    Op dit moment draait de applicatie op grote Android touch schermen in meer dan 30 4SO shop in shops in Nederland, Duitsland en Engeland.
+    Voor dit project heb ik de een team ingehuurd die in Unity de applicatie heeft ontwikkeld terwijl ik het project in goede banen leidde en de communicatie met de klant afhandelde.
+
     [4 Seasons Outdoor](https://www.4seasonsoutdoor.nl)
     [Recognize](https://recognize.nl/)
     [CreaUnit](http://www.creaunit.com/)
