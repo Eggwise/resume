@@ -147,8 +147,6 @@ skills:
 - keywords:
   - Cloud / Lambda architecture
   - SQL & NoSQL
-  - Docker
-  - Heroku
   - Git
   - OTAP straat
   - Chat bots
@@ -175,6 +173,12 @@ skills:
   level: Master
   name: Test frameworks
 
+- keywords:
+  - Heroku
+  - Docker
+  - Syncano
+  level: Master
+  name: Hosting / Deployment
 
 work:
 - company: DeWilde
